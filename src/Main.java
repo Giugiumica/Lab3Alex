@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 class MainApp {
-    public static void main(String[] args){
+    public static void main(String[] args) throws FileNotFoundException {
 //        List<Punct> puncte=new ArrayList<Punct>();
 //        puncte.add(new Punct(1,2));
 //        puncte.add(new Punct(3,4));
@@ -30,8 +30,14 @@ class MainApp {
         //Parabola
         File parabole=new File("in.txt");
         Scanner myScanner =new Scanner(parabole);
-        while (myScanner.hasNextLine()) {
 
+        while (myScanner.hasNextLine()) {
+            String linie = myScanner.nextLine();
+            String[] numere = linie.split(" ");
+            int a= Integer.parseInt(numere[0]);
+            int b= Integer.parseInt(numere[1]);
+            int c= Integer.parseInt(numere[2]);
+            ArrayList<Parabola> listaParabolee = new ArrayList<>();
         }
     }
 }
