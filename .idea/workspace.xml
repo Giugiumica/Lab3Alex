@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d520d70-3a09-4ffe-9abb-f8636026ecb5" name="Changes" comment="1st attempt">
+    <list default="true" id="0d520d70-3a09-4ffe-9abb-f8636026ecb5" name="Changes" comment="2st attempt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -50,10 +50,30 @@
       <option name="presentableId" value="Default" />
       <updated>1696863734208</updated>
     </task>
+    <task id="LOCAL-00001" summary="2st attempt">
+      <created>1696869647369</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696869647369</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st attempt" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st attempt" />
+    <MESSAGE value="2st attempt" />
+    <option name="LAST_COMMIT_MESSAGE" value="2st attempt" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -31,13 +31,24 @@ class MainApp {
         File parabole=new File("in.txt");
         Scanner myScanner =new Scanner(parabole);
 
+        ArrayList<Parabola> listaParabolee = new ArrayList<>();
+
         while (myScanner.hasNextLine()) {
             String linie = myScanner.nextLine();
             String[] numere = linie.split(" ");
             int a= Integer.parseInt(numere[0]);
             int b= Integer.parseInt(numere[1]);
             int c= Integer.parseInt(numere[2]);
-            ArrayList<Parabola> listaParabolee = new ArrayList<>();
+            listaParabolee.add(new Parabola(a,b,c));
         }
+        for (Parabola parabola : listaParabolee) {
+            System.out.println(parabola.toString());
+            System.out.println(parabola.calcParabola_y());
+            System.out.println("    ");
+        }
+        Parabola parabola = listaParabolee.get(0);
+        Parabola parabola1 = listaParabolee.get(1);
+
+        System.out.println(Parabola.retMijloc(parabola, parabola1));
     }
 }
